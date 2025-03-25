@@ -3,5 +3,11 @@ public class Main {
 
         int age = 25;
 
+        if (age >= 18) {
+            System.out.println("Volljährig");
+        } else {
+            System.out.println("Minderjährig");
+        }
+
     }
 }
