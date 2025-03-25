@@ -10,5 +10,11 @@ public class Main {
         }
 
         String name = "Eric";
+
+        if (name.length() > 10) {
+            System.out.println("Name ist länger als 10 Zeichen");
+        } else {
+            System.out.println("Name ist nicht länger als 10 Zeichen");
+        }
     }
 }
